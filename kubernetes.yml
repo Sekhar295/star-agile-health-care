@@ -17,7 +17,7 @@ spec:
         - name: c01
           image: sekhar295/health-care:1.0
           ports:
-            - containerport: 8082
+            - containerPort: 8082
           env:
             - name: PORT
               value: "8082"

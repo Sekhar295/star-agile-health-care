@@ -14,13 +14,13 @@ spec:
         app: healthcare
     spec:
       containers:
-        name: c01
-        image: sekhar295/health-care:1.0
-        ports:
-          - containerport: 8082
-        env:
-          - name: PORT
-            value: "8082"
+        - name: c01
+          image: sekhar295/health-care:1.0
+          ports:
+            - containerport: 8082
+          env:
+            - name: PORT
+              value: "8082"
 ---
 apiVersion: v1
 kind: Service
